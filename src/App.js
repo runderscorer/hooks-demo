@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+// import Counter from './Counter';
+import Counter from './hooks/Counter';
+// import ToDo from './ToDo';
+// import ToDo from './hooks/ToDo';
+// import SearchIndex from './SearchIndex';
+import SearchIndex from './hooks/SearchIndex';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Counter />
     </div>
   );
 }
